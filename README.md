@@ -7,7 +7,7 @@ Also, for the footer copyright notice, the current year is set using the Date ob
 
 This project is done with semantic HTML5 markup, CSS styling, JavaScript function, variables, arrays, and for loops.
 
-[PREVIEW](https://full-stack-web-developer-and-designer.github.io/javascript-quiz.html/)
+[PREVIEW](https://full-stack-web-developer-and-designer.github.io/javascript-quiz/)
 ##
-[![Mirnes Glamočić](/mockup-javascript-quiz.webp)](https://full-stack-web-developer-and-designer.github.io/javascript-quiz.html)
+[![Mirnes Glamočić](/mockup-javascript-quiz.webp)](https://full-stack-web-developer-and-designer.github.io/javascript-quiz)
 
