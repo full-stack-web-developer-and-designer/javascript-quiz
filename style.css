@@ -69,8 +69,13 @@ footer a:hover {
 footer a:active {
     color: #FFAE26;
 }
+@media screen and (max-width:1200px){
+    footer {
+        padding-top: 25px;
+    }
+}
 @media screen and (max-width:767px){
     #container {
         width: 80%;
-}
+    }
 }
