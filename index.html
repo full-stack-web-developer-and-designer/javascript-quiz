@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>JavaScript Quiz</h1>
+            <p>Test your knowledge in <strong>JavaScript</strong>!</p>
+        </header>
+        <section>
+            <div id="results"></div>
+            <form name="quizForm" onsubmit="return submitAnswers()">
+
+                <h2>1. How to write an IF statement in JavaScript?</h2>
+                <input type="radio" name="q1" value="a" id="q1a"><label for="q1a">a. if (i == 5)</label><br>
+                <input type="radio" name="q1" value="b" id="q1b"><label for="q1b">b. if i = 5 then</label><br>
+                <input type="radio" name="q1" value="c" id="q1c"><label for="q1c">c. if i == 5 then</label><br>
+                <input type="radio" name="q1" value="d" id="q1d"><label for="q1d">d. if i = 5</label>
+
+                <h2>2. How does a WHILE loop start?</h2>
+                <input type="radio" name="q2" value="a" id="q2a"><label for="q2a">a. while (i &lt;= 10)</label><br>
+                <input type="radio" name="q2" value="b" id="q2b"><label for="q2b">b. while i = 1 to 10</label><br>
+                <input type="radio" name="q2" value="c" id="q2c"><label for="q2c">c. while (i &lt;= 10; i++)</label>
+
+                <h2>3. How do you round the number 7.25, to the nearest integer?</h2>
+                <input type="radio" name="q3" value="a" id="q3a"><label for="q3a">a. Math.round(7.25)</label><br>
+                <input type="radio" name="q3" value="b" id="q3b"><label for="q3b">b. round(7.25)</label><br>
+                <input type="radio" name="q3" value="c" id="q3c"><label for="q3c">c. rnd(7.25)</label><br>
+                <input type="radio" name="q3" value="d" id="q3d"><label for="q3d">d. Math.rnd(7.25)</label>
+
+                <h2>4. What is the correct JavaScript syntax for opening a new window called "w2" ?</h2>
+                <input type="radio" name="q4" value="a" id="q4a"><label for="q4a">a. w2 = window.new("http://www.w3schools.com");</label><br>
+                <input type="radio" name="q4" value="b" id="q4b"><label for="q4b">b. w2 = window.open("http://www.w3schools.com");</label> 
+
+                <h2>5. How can you detect the client's browser name?</h2>
+                <input type="radio" name="q5" value="a" id="q5a"><label for="q5a">a. navigator.appName</label><br>
+                <input type="radio" name="q5" value="b" id="q5b"><label for="q5b">b. client.navName</label><br>
+                <input type="radio" name="q5" value="c" id="q5c"><label for="q5c">c. browser.name</label><br><br>
+                <input type="submit" value="Submit Answers">
+            </form>
+        </section>
+        <footer>Copyright &copy; <span id="currentYear"></span> | All Rights Reserved | Developed by <a href="https://mirnesglamocic.com" target="_blank">Mirnes Glamočić</a></footer>
+    </div>
+</body>
+</html>
